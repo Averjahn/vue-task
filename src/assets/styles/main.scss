@@ -1,0 +1,17 @@
+
+@import "Menu.scss";
+@import "Header.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Tele2 TextSans Web SHORT';
+    font-style: normal;
+    font-weight: 400;
+    src: url(@/assets/tele2-web-fonts/fonts/tele2_textsans-regular.woff);
+    } 
+
+

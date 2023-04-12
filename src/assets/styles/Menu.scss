@@ -1,0 +1,48 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    height: 47px;
+}
+
+.menu__container {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    border-bottom: 1px solid #D3D9DF;
+    width: 77.5%;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    height: 47px;
+    font-family:'Tele2 TextSans Web SHORT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 18px;
+    color: #7C8792;
+}
+
+:hover.menu__item {
+    color: #1F2229;
+    border-bottom: 2px solid #1F2229;
+}
+
+
+@media (max-width: 375px) {
+    
+    .menu__container {
+        width: 92%;
+        flex-direction: column;
+        border-bottom: none;
+    }
+    .menu__item {
+        padding-bottom: 0.3rem;
+        padding-top: 1.4rem;
+        margin: 0;
+        width: 100%;
+        border-bottom: 1px solid #D3D9DF;
+    }
+  }
